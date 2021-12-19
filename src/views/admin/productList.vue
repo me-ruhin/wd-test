@@ -23,7 +23,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr style="text-align: center">
                     <td>#122</td>
                     <td>02/12/12</td>
                     <td>Processing</td>

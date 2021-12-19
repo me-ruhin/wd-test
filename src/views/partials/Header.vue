@@ -5,8 +5,9 @@
         <div class="row">
           <div class="col-12">
             <ul class="nav_section">
+              <li><router-link :to="{name:'Home'}">Homepage</router-link> </li>
               <li><router-link :to="{name:'adminDashboard'}">Dashboard</router-link> </li>
-              <li><a href="#">Cart</a></li>
+              <li><router-link :to="{name:'productCart'}">Cart</router-link></li>
               <li><router-link :to="{name:'Login'}">Sign In/ Sign Up</router-link></li>
             </ul>
           </div>

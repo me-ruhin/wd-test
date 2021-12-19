@@ -1,10 +1,11 @@
 <template>
-  <div id="orderList">
+  <div>
+       <div id="orderList">
     <div class="dashboard_section">
       <div class="container">
         <div class="row gx-5">
          <sidebar></sidebar>
-          <div class="col-lg-9">
+          <div class="col-lg-12">
             <div class="order_title_wrapper">
               <h3 class="order_title">Your Orders</h3>
               <div class="search_wrapper">
@@ -44,16 +45,15 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
-import Sidebar from "./partials/Sidebar.vue"
 export default {
-    components:{
-        Sidebar
-    }
-};
+
+}
 </script>
 
 <style>
+
 </style>
