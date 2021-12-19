@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+.header_section {
+    background: rgba(30,39,46,.2);
+    padding: 20px 0;
+}
+.nav_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.nav_section li{}
+.nav_section li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(30,39,46,1);
+}
+
+
+/* product */
+.price_add_to_cart_btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.add_to_cart_btn {
+    border: none;
+    outline: none;
+    background-color: rgba(30,39,46,.5);
+    padding: 6px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.course-img-area{
+    position: relative;
+}
+
+/* dashboard */
+.dashboard_section{
+    padding: 50px 0px;
+}
+.dashboard_nav_wrapper{
+
+}
+.dashboard_nav_wrapper ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:10px;
+}
+.dashboard_nav_wrapper ul li{}
+.dashboard_nav_wrapper ul li a {
+    background-color: rgba(30,39,46,.05);
+    display: block;
+    padding: 10px;
+}
+
+.order_action_btn_group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+/* table */
+.order_title_wrapper {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+table {
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: rgba(52, 73, 94,1);
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.table_bordered {
+    border: 1px solid #dfe5eb;
+}
+.table_bordered thead td, .table_bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dfe5eb;
+}
+.table_bordered td, .table_bordered th {
+    border: 1px solid #dfe5eb;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dfe5eb;
+}
+
+/* heading style */
+.package_type {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+}
+.package_subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.package_duration{
+    position: relative;
+    display: inline-block;
+    color: #000;
+}
+.supperText {
+    position: absolute;
+    top: 8px;
+    left: -8px;
+}
+.supperText, .total_month {
+    font-size: 15px;
+    font-weight: 400;
+}
+.duration_number {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.package_check_mark_icon{
+    text-align: center;
+}
+.common_text{
+    color: #000;
+    font-weight: 400;
+    font-size: 13px;
+}
+.package_check_mark_icon svg {
+    height: 8px;
+    width: 12px;
+}
+.package_check_mark_icon svg path{
+    fill:#000;
+}
+
+
+
+/* cart */
+.cart_section{
+    padding: 50px 0;
+}
+.cart_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid rgba(30,39,46,.1)
+}
+.produc_img_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart_img{}
+.cart_img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.decreament_btn, .increament_btn {
+    width: 20px;
+}
+.qty_number{
+    padding: 10px
+}
+.item_remove{
+    text-align: center;
+}
+.item_remove button {
+    border: none;
+    outline: none;
+    background: rgba(30,39,46,.3);
+    padding: 3px 10px;
+    display: inline-block;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.subtotal_btn_area {
+    display: flex;
+    justify-content: flex-end;
+}
+.subtotal_btn_area button{
+    width: 100%;
+    padding: 10px 0 ;
+   
+}
+button{
+    cursor: pointer;
+}
+.search_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.input_control{
+    min-width: 230px;
+    height: 35px;
+    border: 1px solid rgba(30,39,46,.5);
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* sign in */
+.signin_section{
+    padding: 100px 0px;
+}
+.signin_section input{
+    width: 100%;
+}
+.title_wrapper{
+    margin-bottom: 20px;
+}
+p.form_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.submit_btn_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.submit_btn {
+    border: none;
+    outline: none;
+    background: rgba(30,39,46,.3);
+    padding: 10px 50px;
+}
