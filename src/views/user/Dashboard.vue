@@ -3,8 +3,7 @@
        <div id="orderList">
     <div class="dashboard_section">
       <div class="container">
-        <div class="row gx-5">
-         <sidebar></sidebar>
+        <div class="row gx-5">        
           <div class="col-lg-12">
             <div class="order_title_wrapper">
               <h3 class="order_title">Your Orders</h3>
